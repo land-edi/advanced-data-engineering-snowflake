@@ -4,6 +4,6 @@ default_connection_name = "advanced_data_engineering_snowflake"
 
 [connections]
 [connections.advanced_data_engineering_snowflake]
-account=""
-user=""
-password=""
+account=${{ secrets.SNOWFLAKE_ACCOUNT }}
+user=${{ secrets.SNOWFLAKE_USER }}
+password=${{ secrets.SNOWFLAKE_PASSWORD }}
